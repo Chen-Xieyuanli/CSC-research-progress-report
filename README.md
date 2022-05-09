@@ -1,6 +1,8 @@
 # CSC-research-progress-report
 An example for the CSC research progress report created by Xieyuanli at the University of Bonn.
 
+<img src="rpr-letter.png" width="800">
+
 ### How to use
 #### File descriptions
 
