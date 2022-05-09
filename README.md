@@ -1,12 +1,12 @@
 # CSC-research-progress-report
-An example for CSC research progress report created by Xieyuanli at University of Bonn.
+An example for the CSC research progress report created by Xieyuanli at the University of Bonn.
 
 ### How to use
 #### File descriptions
 
 - rpr-letter.tex: the main file where you put all the content of the report.
-- briefcd_3en.cls: the Latex styling file where you could modify for your own style.
-- Makefile: the compile file for generating the pdf.
+- briefcd_3en.cls: the Latex styling file that you could modify for your own style.
+- Makefile: the compiling file for generating the pdf.
 
 #### How to compile
 
