@@ -1,0 +1,31 @@
+\documentclass[english]{briefcd_3en}
+
+\signature{Xieyuanli Chen\hspace{4cm}Prof.~Dr.~Cyrill Stachniss\\Doctoral candidate\hspace{3.42cm}Supervisor}
+\function{\textbf{Xieyuanli Chen}\\Doctoral candidate}
+\subdivision{Photogrammetry}
+\appostalcode{53115}
+\aptown{Bonn}
+\apstreet{Nussallee 15}
+\aptel{2910}
+\apfax{2712}
+\shortsender{Nussallee 15}
+\subject{RESEARCH PROGRESS REPORT}
+
+\begin{document}
+\begin{letter}{To whom it may concern}
+\date{March 15, 2022}
+\opening{Dear Sir or Madam,}
+
+My name is Xieyuanli Chen and my CSC student ID is xxx. I am writing this letter to report my research progress from xxx to xxx.
+
+In the last xxx months, I mainly worked on the topic of moving object segmentation (MOS) with 3D LiDAR scans, which is very useful for many downstream tasks of robotics and autonomous vehicles, such as localization, mapping, and navigation. I proposed a novel approach that exploits neural networks and pushed the current state of the art in LiDAR-MOS forward. Instead of segmenting the point cloud semantically, i.e., predicting the semantic classes such as vehicles, pedestrians, buildings, roads, etc., our approach accurately separates the scene into moving and static objects, i.e., distinguishing between moving cars vs. parked cars. Our proposed approach exploits range images generated from a rotating 3D LiDAR sensor as an intermediate representation and runs faster than the frame rate of the sensor. We use sequential range images as the neural network input, enabling our network to exploit spatial and temporal information obtained by the LiDAR sensor at the same time and to better reason the motion properties of surroundings.
+
+Thanks to the guidance of my supervisor, Prof. Dr. Cyrill Stachniss, and the help of my colleagues, we have written a paper based on this approach and published it in IEEE Robotics and Automation Letters (RA-L), one of the top journals in the field of robotics.
+
+I will continue working on the same topic and plan to develop a better network architecture to better segment the moving object in LiDAR scans. Our current method still needs a large number of labels to train a good model for online LiDAR-MOS. I also would like to design a self-supervised training scheme to alleviate the human labeling effort in the next step.
+
+
+\closing{Best regards,}
+
+\end{letter}
+\end{document}
