@@ -15,7 +15,7 @@ An example for CSC research progress report created by Xieyuanli at University o
 make
 ```
 
-- to remove the intermedia results, just run:
+- to remove the intermediate results, just run:
 ```bash
 make clean
 ```
